@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formula</title>
+  </head>
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+    }
+
+    .input-tab {
+      margin-top: 10px;
+    }
+
+    .input-tags input {
+      margin-left: 50px;
+    }
+
+    .input-tags select {
+      width: 800px;
+    }
+
+    .input-tags label {
+      margin-top: 10px;
+    }
+
+    .gap {
+      margin: 10px;
+    }
+
+    .gap label {
+    }
+
+    fieldset {
+      width: 100%;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    button {
+      width: 100px;
+    }
+
+    .standerd-top {
+      display: flex;
+      flex-wrap: nowrap;
+    }
+    /* Main contents */
+
+    .main-contents {
+      height: 345px;
+      width: 95%;
+      border: 1px solid gainsboro;
+      margin: auto;
+      margin-top: 10px;
+    }
+
+    .three-contents {
+      height: 20px;
+      width: 50%;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .three-contents span {
+      background-color: gainsboro;
+    }
+
+    .product-option {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .product-option-1 select {
+      width: 200px;
+    }
+    .product-option-2 select {
+      width: 200px;
+    }
+    .footer-buttons {
+      margin-top: 2px;
+      height: 45px;
+      width: 100%;
+      background-color: gainsboro;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+
+    .two-buttons button {
+      height: 35px;
+    }
+  </style>
+  <body>
+    <form action="Prisma-pro">
+      <nav>
+        <div class="standerd-top">
+          <fieldset>
+            <legend>Search</legend>
+            <div class="input-tags">
+              <div class="gap">
+                <label for=""
+                  >Color:-
+                  <select name="c" id="">
+                    <option value=""></option>
+                  </select>
+                  <button>Clear</button>
+                </label>
+              </div>
+
+              <div class="gap">
+                <label for=""
+                  >Product:-
+                  <select name="" id="">
+                    <option value=""></option>
+                  </select>
+                </label>
+              </div>
+
+              <div class="gap">
+                <label for=""
+                  >Collection:-
+                  <select name="" id="">
+                    <option value=""></option>
+                  </select>
+                </label>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+      </nav>
+      <main>
+        <div class="main-contents">
+          <div class="three-contents">
+            <span>Color</span>
+            <span>Collection</span>
+            <span>Product</span>
+          </div>
+          <div class="product-option-1">
+            <select name="" id="">
+              <option value=""></option>
+            </select>
+            <select name="" id="">
+              <option value=""></option>
+            </select>
+            <select name="" id="">
+              <option value=""></option>
+            </select>
+          </div>
+        </div>
+        <footer>
+          <div class="footer-buttons">
+            <div class="two-buttons">
+              <button>Back</button>
+              <button>Next</button>
+            </div>
+          </div>
+        </footer>
+      </main>
+    </form>
+  </body>
+</html>
